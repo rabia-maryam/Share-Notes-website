@@ -1,0 +1,99 @@
+.note-main {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    padding: 5px; 
+}
+
+
+.note-form {
+    background:  linear-gradient(
+        to bottom,
+        rgba(150, 70, 255, 0.92), 
+        rgba(202, 153, 255, 0.689), 
+        rgba(92, 45, 158, 0.596)
+      );;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80vw;
+    max-width: 800px; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.note-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.note-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.note-form input,
+.note-form select,
+.note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.543);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+
+.note-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+.note-form button {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background-color:  rgb(92, 45, 158);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.note-form button:hover {
+    background-color: rgba(92, 45, 158, 0.735);
+}
+
+
+.note-form ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.note-form ul li {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.note-form select option {
+    padding: 10px;
+}

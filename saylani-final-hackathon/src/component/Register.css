@@ -1,0 +1,57 @@
+.register-main {
+    background: linear-gradient(
+        to right,
+        rgb(149, 70, 255), 
+        rgb(202, 153, 255), 
+        rgb(92, 45, 158)
+      );
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background: rgba(255, 255, 255, 0.208);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 25px;
+    color: white;
+}
+.inputs{
+    background-color: rgba(255, 255, 255, 0.543);
+    color: white;
+    width: 300px;
+    padding: 7px;
+    padding-left: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.inputs::placeholder{
+    color: white;
+}
+.input-btn{
+    color: white;
+    background-color:  rgb(92, 45, 158);
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.register-main img{
+    width: 330px;
+    background-color: white;
+    border-radius: 20px;
+}
